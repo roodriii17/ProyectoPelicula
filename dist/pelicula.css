@@ -3,11 +3,11 @@ body {
     font-family: 'Verdana', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('dist/imagenes/clapperboard-cinema-tickets-space (1).jpg') no-repeat center center fixed;
+    background-image: url('cover.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #212529;
     line-height: 1.6;
-    overflow-x: hidden; /* Evitar desplazamiento horizontal */
+    overflow-x: hidden; 
 }
 
 /* Barra de menú fija */
@@ -17,10 +17,10 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    background-color: rgba(0, 0, 0, 0.8); 
     color: white;
     display: flex;
-    justify-content: center; /* Centrado de los elementos */
+    justify-content: center; 
     align-items: center;
     padding: 10px 20px;
     z-index: 1000;
@@ -63,27 +63,26 @@ body {
     background-color: #e55a00;
 }
 
-/* Añadir margen superior al body para que no quede debajo de la barra */
 body {
-    margin-top: 80px; /* Ajusta según el tamaño de la barra */
+    margin-top: 80px; 
 }
 
 /* Alinear h1 y h2 al centro y color blanco */
 h1, h2 {
-    text-align: center; /* Centrado de texto */
-    color: white; /* Color blanco */
-    margin: 0; /* Eliminar márgenes para mayor control */
+    text-align: center; 
+    color: white; 
+    margin: 0; 
 }
 
-/* Para darle un pequeño margen al h1 y h2 si lo deseas */
+
 h1 {
-    margin-top: 20px; /* Separar un poco del borde superior */
-    font-size: 2rem; /* Ajustar el tamaño */
+    margin-top: 20px; 
+    font-size: 2rem; 
 }
 
 h2 {
-    margin-top: 10px; /* Separar un poco del h1 */
-    font-size: 1.5rem; /* Ajustar el tamaño */
+    margin-top: 10px; 
+    font-size: 1.5rem;
 }
 
 /* Lista de películas */
@@ -93,7 +92,7 @@ h2 {
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
-    margin: 80px auto 0; /* Para que no quede cubierto por la barra */
+    margin: 80px auto 0; 
 }
 
 #lista li {
@@ -129,15 +128,15 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;  /* Ancho reducido */
-    max-width: 500px;  /* Máximo de ancho */
-    max-height: 70%;  /* Máxima altura */
+    width: 80%;  
+    max-width: 500px;  
+    max-height: 70%;  
     overflow-y: auto;
     background-color: #fff;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 20px;
-    margin-bottom: 20px; /* Añadido para evitar que el modal toque el fondo */
+    margin-bottom: 20px; 
 }
 
 /* Título del Modal */
@@ -192,7 +191,7 @@ h2 {
 
 .loader {
     border: 16px solid #f3f3f3; /* Fondo del spinner */
-    border-top: 16px solid #3498db; /* Color de la parte activa */
+    border-top: 16px solid #3498db; /* Color del cirulo */
     border-radius: 50%;
     width: 120px;
     height: 120px;
